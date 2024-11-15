@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA2x1o_ss7fPNo3kPVdJEFko4R7Uin3Mz4",
-  authDomain: "ragon-news-52.firebaseapp.com",
-  projectId: "ragon-news-52",
-  storageBucket: "ragon-news-52.firebasestorage.app",
-  messagingSenderId: "546762639767",
-  appId: "1:546762639767:web:b964952ad6324492eb1cd2"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
